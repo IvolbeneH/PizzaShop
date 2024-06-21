@@ -23,7 +23,7 @@ const COLORS = [
 
 export function PopularProductsCharts() {
     return (
-        <Card className="col-span-3">
+        <Card className="flex flex-col mt-5 lg:col-span-3">
             <CardHeader className="pb-8">
                 <div className="flex items-center justify-between">
                     <CardTitle className="text-base font-medium">Produtos populares</CardTitle>
