@@ -1,6 +1,5 @@
 import { Header } from "@/components/header";
 import { Metadata } from "next";
-import { Children } from "react";
 import { Orders } from "./orders";
 
 export const metadata: Metadata = {
@@ -10,7 +9,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
     return (
-        <div>
+        <div className="flex flex-col lg:grid lg:grid-cols-app">
             <Header />
             <Orders />
         </div>

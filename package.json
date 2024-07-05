@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "restart": "echo 'Restarting project...' && pnpm stop && pnpm start"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.6.0",

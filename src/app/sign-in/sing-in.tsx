@@ -28,7 +28,7 @@ export function SingIn() {
     return (
         <div className="p-8">
             <Button variant='link' asChild>
-                <Link href='/sign-up' className="absolute top-6 right-5">
+                <Link href='/sign-up' className="absolute top-6 right-5 lg:mt-0 mt-[5rem] mr-2 lg:mr-0">
                     Novo estabelecimento
                 </Link>
             </Button>

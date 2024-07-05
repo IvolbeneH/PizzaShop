@@ -5,12 +5,12 @@ import { Search, X } from "lucide-react";
 
 export function OrderTableFilters() {
     return (
-        <form className="flex items-center gap-2">
-            <span className="text-sm font-semibold">Filtros</span>
+        <form className="flex lg:flex-row lg:items-center gap-3 flex-col  ">
+            <span className="text-lg font-semibold">Filtros</span>
             <Input placeholder="Id do pedido" className="h-8 w-auto" />
-            <Input placeholder="Nome do cliente" className="h-8 w-[320px]" />
+            <Input placeholder="Nome do cliente" className="h-8 w-auto" />
             <Select defaultValue="all">
-                <SelectTrigger className="h-8 w-[180px]">
+                <SelectTrigger className="h-8 w-auto">
                     <SelectValue />
                 </SelectTrigger>
                 <SelectContent>
